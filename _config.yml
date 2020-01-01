@@ -1,3 +1,7 @@
 name: Hank Quinlan, Horrible Cop
 markdown: kramdown
 remote_theme: pmarsceill/just-the-docs
+# Aux links for the upper right navigation
+aux_links:
+  "light.gg":
+    - "//light.gg"
