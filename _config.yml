@@ -6,3 +6,5 @@ aux_links:
   "light.gg":
     - "//light.gg"
 footer_content: "Copyright &copy; light.gg"
+color_scheme: "dark"
+ga_tracking: UA-107713767-1
