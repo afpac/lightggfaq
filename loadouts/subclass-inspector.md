@@ -2,7 +2,7 @@
 title: Subclass Inspector
 parent: Inspectors
 grand_parent: Loadout Calculator
-has_children: true
+has_children: false
 nav_order: 1
 ---
 

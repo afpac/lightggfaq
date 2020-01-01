@@ -2,7 +2,7 @@
 title: Weapon Inspector
 parent: Inspectors
 grand_parent: Loadout Calculator
-has_children: true
+has_children: false
 nav_order: 2
 ---
 
@@ -10,7 +10,7 @@ nav_order: 2
 
 ## Weapon Inspector
 
-The subclass inspector allows you to specify which mods and perks you want to use for a given weapon. 
+The weapon inspector allows you to specify which mods and perks you want to use for a given weapon. 
 
 Summon the Weapon Inspector by clicking any of the weapon slots on the left column of the loadout summary. From there:
 
@@ -22,7 +22,6 @@ Summon the Weapon Inspector by clicking any of the weapon slots on the left colu
 	* Should your chosen mod grant stats to your weapon (such as Backup Mag increasing the magazine size), the Stats list below will update to reflect the mod's effects.
 * The masterworks the weapon is capable of rolling are listed. 
 	* Selecting a masterwork will grant +10 (see the FAQs section below on how stats are calculated) to that stat. The Stats list below will update to reflect this.
-* You can deselect any node to indicate your loadout is flexible for that component of the build.
 
 **Stats**
 
