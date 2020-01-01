@@ -1,6 +1,7 @@
 ---
 title: Weapon Inspector
 parent: Inspectors
+grand_parent: Loadout Calculator
 has_children: true
 nav_order: 2
 ---
@@ -9,8 +10,7 @@ nav_order: 2
 
 ## Weapon Inspector
 
-The subclass inspector allows you to specify which mods and perks you want to use for a given weapon.
-es you want to specify your loadout is designed for. 
+The subclass inspector allows you to specify which mods and perks you want to use for a given weapon. 
 
 Summon the Weapon Inspector by clicking any of the weapon slots on the left column of the loadout summary. From there:
 
@@ -18,6 +18,7 @@ Summon the Weapon Inspector by clicking any of the weapon slots on the left colu
 
 * Clicking the Empty Mod Socket icon will summon a list of mods that are compatible with the weapon
 	* Mods from the current season's artifact will only display in the list if you have them selected in the [artifact inspector](./artifact-inspector.html).
+		* If an artifact mod is removed from your artifact, it will also be removed from any weapons currently using it.
 	* Should your chosen mod grant stats to your weapon (such as Backup Mag increasing the magazine size), the Stats list below will update to reflect the mod's effects.
 * The masterworks the weapon is capable of rolling are listed. 
 	* Selecting a masterwork will grant +10 (see the FAQs section below on how stats are calculated) to that stat. The Stats list below will update to reflect this.
@@ -55,15 +56,15 @@ Mods/perks show the value that should be fed through the formula to get a new di
 
 **Q: What are recommended perks?**
 
-A: These are perks compiled by top community theorycrafters to be the perks to look for on each given weapon.
+These are perks compiled by top community theorycrafters to be the perks to look for on each given weapon.
 
 **Q: Why are some perks recommended on some weapons but not on others?**
 
-A: Each weapon has its own recommendations independent of whether the perk is preferred on any other weapon.
+Each weapon has its own recommendations independent of whether the perk is preferred on any other weapon.
 
 **Q: What do the different colors mean?**
 
-A: The colors denote which type of activity the perk is recommended for: 
+The colors denote which type of activity the perk is recommended for: 
 
 * Blue = PVE
 * Red = PVP
@@ -71,14 +72,12 @@ A: The colors denote which type of activity the perk is recommended for:
 
 **Q: Who are these "top theorycrafters"?**
 
-A: Perk suggestions come from [u/Mercules904](https://reddit.com/u/Mercules904), [u/pandapaxxy](https://reddit.com/u/pandapaxxy), and [u/HavocsCall](https://reddit.com/u/HavocsCall), with contributions from [@chrisfried](https://twitter.com/chrisfried), and [@sundevour](https://twitter.com/sundevour).
+Perk suggestions come from [u/Mercules904](https://reddit.com/u/Mercules904), [u/pandapaxxy](https://reddit.com/u/pandapaxxy), and [u/HavocsCall](https://reddit.com/u/HavocsCall), with contributions from [@chrisfried](https://twitter.com/chrisfried), and [@sundevour](https://twitter.com/sundevour).
 
 Thanks to [@48klocs](https://twitter.com/48klocs) for compiling all of the different recommendations into a single, easy to parse place. Check out his github project <a href="https://github.com/48klocs/dim-wish-list-sources/" target="_blank">here</a> for all the source files that power these recommendations.
 
 **Q: I don't agree with some of these suggestions, and I'm really mad about it!**
 
-A:
-
 Coming up with a complete consensus on what perks are best is a losing battle. However, these community members are widely respected for their work and contributions on trying to guide people as to what rolls are worth chasing. If you strongly disagree with anything they're suggesting, we recommend reaching out to them on the avenues linked above to better understand their logic or potentially change their mind. 
 
-Overall, the suggestions here are just that, suggestions, and they are meant to give a little guidance to players who may be overwhelmed trying to determine whether the items they have are worth using/keeping.
+Overall, the suggestions here are just that, suggestions, and they are meant to give a little guidance to players who may be overwhelmed trying to determine whether the items they have are worth using/keeping. If you're a veteran player, these likely aren't for you, so try not to get too up in arms should you find suggestions you disagree with.

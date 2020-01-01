@@ -1,6 +1,7 @@
 ---
 title: Subclass Inspector
 parent: Inspectors
+grand_parent: Loadout Calculator
 has_children: true
 nav_order: 1
 ---
