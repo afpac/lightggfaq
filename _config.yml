@@ -5,3 +5,4 @@ remote_theme: pmarsceill/just-the-docs
 aux_links:
   "light.gg":
     - "//light.gg"
+footer_content: "Copyright &copy; light.gg"
