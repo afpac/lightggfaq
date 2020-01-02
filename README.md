@@ -1,4 +1,4 @@
-## light.gg Docs
+## Welcome
 
 Welcome to the [light.gg](light.gg) knowledge base. The goal here is to compile simple answers to the most commonly asked questions for major features on the site, document major changes, and so on.
 
