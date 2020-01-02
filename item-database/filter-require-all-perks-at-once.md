@@ -14,6 +14,7 @@ nav_order: 28
 <tr><td>Filter Number</td><td>28</td></tr>
 <tr><td>Allow Negation?</td><td>Yes</td></tr>
 <tr><td>Visible in UI?</td><td>Yes</td></tr>
+<tr><td>Affects Result Columns?</td><td>Yes. Matching perks display under item name. <br/>Red = Curated Roll, Blue = Random Roll<br/> Multiple columns of squares are to indicate which column the matching perk was found in.</td></tr>
 </table>
 
 **Parameters**

@@ -14,6 +14,7 @@ nav_order: 29
 <tr><td>Filter Number</td><td>29</td></tr>
 <tr><td>Allow Negation?</td><td>Yes</td></tr>
 <tr><td>Visible in UI?</td><td>Yes</td></tr>
+<tr><td>Affects Result Columns?</td><td>Yes. Rating replaced w/ stat values</td></tr>
 </table>
 
 **Parameters**
@@ -62,3 +63,5 @@ Let's break down the components of the query:
 As far as the logic of the filter itself goes, it will return any item whose default API stats have a value for the given stat that matches the operation/value conditions you provide.
 
 As with the God Roll Finder filter, it's probably wiser to just use the UI (Equipment stats under Advanced) to start your search for this and then customize from there.
+
+
