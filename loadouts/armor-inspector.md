@@ -65,14 +65,16 @@ To the right of the source breakdown are plus/minus (+/-) icons. Clicking them w
 
 Using the algorithm above, we are able to determine whether or not a roll is "good" by calculating how many of the opportunities for the stats to roll higher were met. Each piece will have between 0 and 24 missed bonuses. Roll Quality is determined by the number of missed bonuses:
 
-| Grade | + |   | - |
-|:-:|:-:|:-:|:-:|
-| S | 0 | 1/2 | 3 |
-| A | 4  | 5/6  | 7  |
-| B | 8  | 9/10  |  11 |
-| C | 12 | 13/14 | 15 |
-| D | 16 | 17/18 | 19 |
-| F | 20 | 21/22 | 23/24 |
+<table>
+<tr><th>&nbsp;</th><th colspan="3">Missed Bonuses</th></tr>
+<tr><th>Grade</th><th>+</th><th>&nbsp;</th><th>-</th></tr>
+<tr><td>S</td><td>0</td><td>1/2</td><td>3</td></tr>
+<tr><td>A</td><td>4</td><td>5/6</td><td>7</td></tr>
+<tr><td>B</td><td>8</td><td>9/10</td><td>11</td></tr>
+<tr><td>C</td><td>12</td><td>13/14</td><td>15</td></tr>
+<tr><td>D</td><td>16</td><td>17/18</td><td>19</td></tr>
+<tr><td>F</td><td>20</td><td>21/22</td><td>23/24</td></tr>
+</table>
 
 In the stat source breakdown, missed squares show on the end of each stat row to indicate when the piece was capable of rolling higher and didn't. High quality rolls will have very few of these; low quality rolls will have many. You can use the manual change +/- icons to play with the values.
 
@@ -85,3 +87,7 @@ This was done so that you can clearly see the benefit granted by masterworking w
 **Q: Why did you make it so stats can be manually adjusted? Won't everyone just always max them out?**
 
 The ability to adjust manually exists so that we are able to theorycraft builds at the far ends of the RNG spectrum without having to mash Randomize or wait for the items to actually drop in game. The whole point of this tool is to be able to play around with scenarios without having to wait for them/pay for them in game, and being able to adjust the stats to accommodate for that is key. Being able to look at Super/Grenade/Melee cooldown breakpoints and build your mods/perks/class abilities around that is one of the big goals here.
+
+**Q: Exotic armor does weird things sometimes. What gives?**
+
+The current theory is that Exotics play by a slightly different set of rules than the algorithm above. The loadout calculator does not account for this yet. This is on the short list of enhancements for the tool.

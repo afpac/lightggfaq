@@ -33,7 +33,7 @@ The Perks list allows you to select which perks you want on the weapon for your 
 
 * You can modify which perk list you want to see by selecting a different option from the Roll Type dropdown list:
 	* *Random*: The list of available perks for the random roll of the weapon
-	* *Curated*: The available perks that always drop on the Bungie "curated" roll of the weapon
+	* *Curated*: The available perks that always drop on the Bungie "curated" roll of the weapon. ***Remember that not all curated rolls actually drop in game.***
 	* *My Roll*: If the weapon was Imported from one of your current characters, this option will show you just the perks that are on your specific roll.
 * Changing the roll type will clear any existing selections
 * Select perks by clicking on them. Selected perks will have a gold border

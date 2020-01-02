@@ -25,4 +25,5 @@ Your loadouts can then be shared so that others can chime in on what they think.
 
 Here are ideas we're looking into potentially adding in the future:
 
+* Different armor stat rules for exotics
 * Equip build on character
