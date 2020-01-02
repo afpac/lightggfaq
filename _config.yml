@@ -7,5 +7,3 @@ aux_links:
 footer_content: "Copyright &copy; light.gg"
 color_scheme: "dark"
 ga_tracking: UA-107713767-1
-plugins:
-  - jekyll-last-modified-at
