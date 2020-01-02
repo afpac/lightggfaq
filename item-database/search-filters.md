@@ -47,7 +47,7 @@ Now, let's say you decide you want to get some armor in the mix:
 
 Here you can see that we have added another chunk of syntax, the pipe `|` between the 2 and 3. This is the OR operator for filters. We're now saying "show me all items that are weapons OR are armor AND are Rare or Legendary. When using the OR operator, it's important to know that the AND `,` operator takes precedence, meaning that it happens first. If, for example, we were to do this instead:
 
-`https://light.gg/db/all?f=2,4(4;5)|3` [Link](https://light.gg/db/all?f=2,4(4;5)%7C3)
+`https://light.gg/db/all?f=2,4(4;5)|3` [Link](https://light.gg/db/all?f=2,4(4;5)|3)
 
 We would get a much different result than we expect. This is because the AND operator happens before the OR operator, changing our question to "show me all items that are weapons AND are Rare or Legendary OR are armor". This query wouldn't return any armor since an item cannot be both armor and a weapon.
 
